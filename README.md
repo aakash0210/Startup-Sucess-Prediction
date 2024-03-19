@@ -16,9 +16,6 @@ Startups play a crucial role in economic growth by bringing new ideas, spurring 
 ## Inspiration:
 Predicting startup success enables investors to identify high-growth potential companies, giving them a competitive edge in the market.
 
-## Evaluation:
-The evaluation metric for this competition is Categorization Accuracy. Submissions should be in CSV format with two columns: ID and status, where status indicates whether the startup is acquired or closed.
-
 ## Notebook Structure:
 1. **Importing Modules:** Necessary Python libraries such as pandas and numpy are imported for data manipulation.
 2. **File Path and Reading:** The dataset is loaded from the specified file path using pandas' `read_excel` function.
@@ -41,5 +38,6 @@ The evaluation metric for this competition is Categorization Accuracy. Submissio
 
 ## Note:
 - The notebook provides a comprehensive analysis of startup success prediction, from data exploration to model evaluation.
+- Feel free to adjust hyperparameters, network architecture, or any other aspects of the code to experiment with different configurations.
 
 
